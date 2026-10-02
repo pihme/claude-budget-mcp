@@ -1,6 +1,6 @@
 {
   "name": "claude-budget-mcp",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "A small local MCP server that tells a Claude Code agent how much of its 5-hour and weekly usage limits is left, the same figures as /usage. Read-only, unofficial endpoint.",
   "license": "MIT",
   "author": "pihme (https://github.com/pihme)",
