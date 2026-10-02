@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Website and handbook
+    url: https://pihme.github.io/claude-budget-mcp/
+    about: Getting started, tools, errors and current status of claude-budget-mcp.
   - name: Report a vulnerability (private)
     url: https://github.com/pihme/claude-budget-mcp/security/advisories/new
     about: Please report security problems privately, not as a public issue.

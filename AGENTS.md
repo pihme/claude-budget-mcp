@@ -59,7 +59,7 @@ License: **MIT** (`LICENSE`). Copyright line: "claude-budget-mcp contributors"; 
 
 ### Website
 
-- No website yet. If one is added, follow the shared website rules from presets.
+- Website: <https://pihme.github.io/claude-budget-mcp/>, generated onto the `gh-pages` branch from outside this repo. Do not edit `gh-pages` by hand.
 
 ## Do not invent
 

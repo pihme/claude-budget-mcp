@@ -4,7 +4,7 @@ labels: ["question"]
 body:
   - type: markdown
     attributes:
-      value: The readme and SPEC.md may already answer it.
+      value: The [website](https://pihme.github.io/claude-budget-mcp/) and the readme may already answer it.
   - type: textarea
     id: question
     attributes:
