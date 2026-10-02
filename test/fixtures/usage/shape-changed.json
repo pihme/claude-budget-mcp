@@ -1,0 +1,3 @@
+{
+  "quota": { "sessions": [ { "pct": 10 } ] }
+}

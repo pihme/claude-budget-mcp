@@ -1,0 +1,45 @@
+{
+  "name": "claude-budget-mcp",
+  "version": "0.0.0",
+  "description": "A small local MCP server that tells a Claude Code agent how much of its 5-hour and weekly usage limits is left, the same figures as /usage. Read-only, unofficial endpoint.",
+  "license": "MIT",
+  "author": "pihme (https://github.com/pihme)",
+  "type": "module",
+  "bin": {
+    "claude-budget-mcp": "dist/index.js"
+  },
+  "main": "dist/index.js",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json && node -e \"require('fs').chmodSync('dist/index.js',0o755)\"",
+    "test": "tsc -p tsconfig.test.json && node --test .test-build/test/*.test.js",
+    "smoke": "npm run build && node scripts/smoke.mjs",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pihme/claude-budget-mcp.git"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude",
+    "claude-code",
+    "anthropic",
+    "usage"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.31.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^7.0.2"
+  }
+}

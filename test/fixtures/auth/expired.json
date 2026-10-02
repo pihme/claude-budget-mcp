@@ -1,0 +1,9 @@
+{
+  "claudeAiOauth": {
+    "accessToken": "FAKE-OAUTH-ACCESS-TOKEN-expired",
+    "refreshToken": "FAKE-OAUTH-REFRESH-TOKEN-expired",
+    "expiresAt": 1759000000000,
+    "scopes": ["user:inference", "user:profile"],
+    "subscriptionType": "pro"
+  }
+}
