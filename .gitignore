@@ -1,0 +1,19 @@
+# OS and editors
+.DS_Store
+.idea/
+.vscode/
+*.iml
+*.log
+# Secrets: never commit them
+.env
+.env.*
+!.env.example
+# release.py output
+release-out/
+
+# Node
+node_modules/
+dist/
+coverage/
+*.tgz
+.test-build/

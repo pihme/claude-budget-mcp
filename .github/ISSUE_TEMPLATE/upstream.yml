@@ -1,0 +1,43 @@
+name: Endpoint or login change
+description: The unofficial usage endpoint, the .credentials.json written by Claude Code, or Claude Code itself seems to have changed.
+labels: ["upstream"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        claude-budget-mcp reads an **unofficial, undocumented** Anthropic endpoint, so changes on Anthropic's side are expected from time to time.
+        This tracker is public: **do not paste `.credentials.json`, tokens, `Authorization` headers or the raw usage response.** Field names and their types are enough.
+  - type: dropdown
+    id: what
+    attributes:
+      label: What changed
+      options:
+        - get_budget returns a warning or null fields that used to be filled
+        - SHAPE_CHANGED error
+        - UNAUTHORIZED although Claude Code works
+        - .credentials.json shape (AUTH_SHAPE_UNEXPECTED after /login)
+        - RATE_LIMITED on a single call
+        - Numbers differ from what /usage shows
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: claude-budget-mcp version or commit, and the Claude Code version (`claude --version`).
+      placeholder: claude-budget-mcp 0.1.0, Claude Code 2.x
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What you see
+      description: The `warning` text or error message, and which fields are new, missing or renamed (names and types only, no values that identify you).
+    validations:
+      required: true
+  - type: textarea
+    id: usage
+    attributes:
+      label: What /usage shows
+      description: Optional. The figures `/usage` shows at the same time, if they help compare.

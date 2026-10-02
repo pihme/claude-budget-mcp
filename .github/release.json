@@ -1,0 +1,13 @@
+{
+  "_note": "Read by .github/scripts/release.py. One entry per released artifact. paths: only commits touching them count. version_file: bumped by `npm version` in a chore(release) commit. build/assets: {name} and {ver} are replaced.",
+  "components": [
+    {
+      "name": "claude-budget-mcp",
+      "paths": ["src/", "package.json", "package-lock.json", "tsconfig.json"],
+      "version_file": "package.json",
+      "build": [["npm", "ci"], ["npm", "pack", "--pack-destination", "release-out"]],
+      "assets": ["release-out/{name}-{ver}.tgz"],
+      "notes": "### Install\n\nDownload `{name}-{ver}.tgz` below, then `npm install -g ./{name}-{ver}.tgz`, or build from source as described in the README. Not published to npm."
+    }
+  ]
+}
