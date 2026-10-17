@@ -1,9 +1,17 @@
 # claude-budget-mcp
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/claude-budget-mcp-logo-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="docs/assets/claude-budget-mcp-logo-light.svg">
+    <img src="docs/assets/claude-budget-mcp-logo-universal.svg" width="120" alt="claude-budget-mcp logo">
+  </picture>
+</p>
+
 [![CI](https://github.com/pihme/claude-budget-mcp/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/pihme/claude-budget-mcp/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![Release](https://img.shields.io/github/v/release/pihme/claude-budget-mcp?filter=claude-budget-mcp%2F*&label=release)](https://github.com/pihme/claude-budget-mcp/releases)
-[![Website](https://img.shields.io/badge/website-pihme.github.io%2Fclaude--budget--mcp-7b3f8e)](https://pihme.github.io/claude-budget-mcp/)
+[![Website](https://img.shields.io/badge/website-pihme.github.io%2Fclaude--budget--mcp-d0682f)](https://pihme.github.io/claude-budget-mcp/)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D22-339933?logo=node.js&logoColor=white)](package.json)
 
 A small, local **MCP server** (stdio) that lets a [Claude Code](https://code.claude.com/docs) agent ask
