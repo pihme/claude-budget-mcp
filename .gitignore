@@ -17,3 +17,7 @@ dist/
 coverage/
 *.tgz
 .test-build/
+
+# SonarQube Cloud inputs (written in CI)
+lcov.info
+.scannerwork/
