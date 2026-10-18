@@ -9,7 +9,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | Package | Version | License |
 | --- | --- | --- |
 | [@hono/node-server](https://www.npmjs.com/package/@hono/node-server/v/2.1.3) | 2.1.3 | MIT |
-| [@modelcontextprotocol/sdk](https://www.npmjs.com/package/@modelcontextprotocol/sdk/v/1.32.0) | 1.32.0 | MIT |
+| [@modelcontextprotocol/sdk](https://www.npmjs.com/package/@modelcontextprotocol/sdk/v/1.32.1) | 1.32.1 | MIT |
 | [accepts](https://www.npmjs.com/package/accepts/v/2.0.0) | 2.0.0 | MIT |
 | [ajv](https://www.npmjs.com/package/ajv/v/8.20.0) | 8.20.0 | MIT |
 | [ajv-formats](https://www.npmjs.com/package/ajv-formats/v/3.0.1) | 3.0.1 | MIT |
@@ -139,7 +139,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### @modelcontextprotocol/sdk 1.32.0
+### @modelcontextprotocol/sdk 1.32.1
 
 MIT.
 
