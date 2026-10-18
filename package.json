@@ -21,6 +21,7 @@
   "scripts": {
     "build": "tsc -p tsconfig.json && node -e \"require('fs').chmodSync('dist/index.js',0o755)\"",
     "test": "tsc -p tsconfig.test.json && node --test .test-build/test/*.test.js",
+    "test:coverage": "tsc -p tsconfig.test.json && node --test --enable-source-maps --experimental-test-coverage --test-reporter=spec --test-reporter-destination=stdout --test-reporter=lcov --test-reporter-destination=lcov.info .test-build/test/*.test.js",
     "smoke": "npm run build && node scripts/smoke.mjs",
     "prepare": "npm run build"
   },
