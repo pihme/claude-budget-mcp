@@ -77,7 +77,7 @@ GitHub issues in `pihme/claude-budget-mcp`, via `gh`. See `docs/agents/issue-tra
 
 ### Triage labels
 
-Default roles: `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`, plus `bug` / `enhancement`. See `docs/agents/triage-labels.md`.
+Labels: `needs-triage`, `needs-info`, `needs-input`, `ready-for-maintainer`, `ready-for-development`, `ready-for-qa`, `ready-for-human`, `wontfix`, plus `bug` / `enhancement`. `ready-for-maintainer` is for Maintainer (website, docs fixes, smaller changes), `ready-for-development` is for Developer (larger feature and code work), and `ready-for-qa` is for QA. Team roles, labels, handover, merging and release mode: `docs/agents/team.md` (same in every repo; change it in presets first). See `docs/agents/triage-labels.md`.
 
 ### Domain docs
 
