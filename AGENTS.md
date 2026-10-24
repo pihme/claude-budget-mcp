@@ -10,6 +10,7 @@ License: **MIT** (`LICENSE`). Copyright line: "claude-budget-mcp contributors"; 
 
 ## How to work here
 
+- Reference environment: `nix/reference-env` (Node.js 22) is binding for build and test. `nix/node-24` is the newer major CI also runs. `nix develop ./nix/reference-env -c npm test`. Each `flake.lock` is committed; Dependabot updates it.
 - TypeScript on Node.js 22+ (ESM), official MCP SDK (`@modelcontextprotocol/sdk`) as the only runtime dependency. Ask before adding a dependency. CI runs Node 22 and 24; `@types/node` stays on ^22.
 - Layout: `src/index.ts` (stdio entry), `src/server.ts` (tool registration, error mapping), `src/budget.ts` (one call = read credentials, one request, map), `src/auth.ts` (read-only `.credentials.json`), `src/usage.ts` (HTTP client and field mapping), `src/errors.ts` (error codes), `src/version.ts` (version read from `package.json` at runtime), `test/` (`node:test`, mocked fetch, synthetic fixtures in `test/fixtures/`), `scripts/smoke.mjs` (manual check with a real login).
 - **Token handling is read-only** (SPEC Q4, do not reopen): read `claudeAiOauth.accessToken`, `expiresAt` and `subscriptionType` only; never refresh, never write the credentials file, never call an auth endpoint. Never log, print or return the token, the `Authorization` header, the raw upstream body, or OS error text. stdout is the MCP channel; diagnostics go to stderr.
