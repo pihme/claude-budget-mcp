@@ -100,7 +100,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [vary](https://www.npmjs.com/package/vary/v/1.1.2) | 1.1.2 | MIT |
 | [which](https://www.npmjs.com/package/which/v/2.0.2) | 2.0.2 | ISC |
 | [wrappy](https://www.npmjs.com/package/wrappy/v/1.0.2) | 1.0.2 | ISC |
-| [zod](https://www.npmjs.com/package/zod/v/4.6.5) | 4.6.5 | MIT |
+| [zod](https://www.npmjs.com/package/zod/v/4.6.7) | 4.6.7 | MIT |
 | [zod-to-json-schema](https://www.npmjs.com/package/zod-to-json-schema/v/3.25.2) | 3.25.2 | ISC |
 
 Node.js itself (>= 22) is a prerequisite you install; it isn't included.
@@ -2886,7 +2886,7 @@ ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR
 IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### zod 4.6.5
+### zod 4.6.7
 
 MIT.
 
