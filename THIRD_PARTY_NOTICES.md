@@ -77,7 +77,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [path-to-regexp](https://www.npmjs.com/package/path-to-regexp/v/8.4.2) | 8.4.2 | MIT |
 | [pkce-challenge](https://www.npmjs.com/package/pkce-challenge/v/5.0.1) | 5.0.1 | MIT |
 | [proxy-addr](https://www.npmjs.com/package/proxy-addr/v/2.0.8) | 2.0.8 | MIT |
-| [qs](https://www.npmjs.com/package/qs/v/6.16.0) | 6.16.0 | BSD-3-Clause |
+| [qs](https://www.npmjs.com/package/qs/v/6.16.1) | 6.16.1 | BSD-3-Clause |
 | [range-parser](https://www.npmjs.com/package/range-parser/v/1.3.0) | 1.3.0 | MIT |
 | [raw-body](https://www.npmjs.com/package/raw-body/v/3.0.2) | 3.0.2 | MIT |
 | [require-from-string](https://www.npmjs.com/package/require-from-string/v/2.0.2) | 2.0.2 | MIT |
@@ -2215,7 +2215,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### qs 6.16.0
+### qs 6.16.1
 
 BSD-3-Clause.
 
