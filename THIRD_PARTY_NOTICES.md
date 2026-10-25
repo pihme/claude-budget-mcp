@@ -13,7 +13,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [accepts](https://www.npmjs.com/package/accepts/v/2.0.0) | 2.0.0 | MIT |
 | [ajv](https://www.npmjs.com/package/ajv/v/8.20.0) | 8.20.0 | MIT |
 | [ajv-formats](https://www.npmjs.com/package/ajv-formats/v/3.0.1) | 3.0.1 | MIT |
-| [body-parser](https://www.npmjs.com/package/body-parser/v/2.3.0) | 2.3.0 | MIT |
+| [body-parser](https://www.npmjs.com/package/body-parser/v/2.4.0) | 2.4.0 | MIT |
 | [content-type](https://www.npmjs.com/package/content-type/v/2.1.0) | 2.1.0 | MIT |
 | [bytes](https://www.npmjs.com/package/bytes/v/3.1.2) | 3.1.2 | MIT |
 | [call-bind-apply-helpers](https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2) | 1.0.2 | MIT |
@@ -77,7 +77,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [path-to-regexp](https://www.npmjs.com/package/path-to-regexp/v/8.4.2) | 8.4.2 | MIT |
 | [pkce-challenge](https://www.npmjs.com/package/pkce-challenge/v/5.0.1) | 5.0.1 | MIT |
 | [proxy-addr](https://www.npmjs.com/package/proxy-addr/v/2.0.8) | 2.0.8 | MIT |
-| [qs](https://www.npmjs.com/package/qs/v/6.16.0) | 6.16.0 | BSD-3-Clause |
+| [qs](https://www.npmjs.com/package/qs/v/6.16.1) | 6.16.1 | BSD-3-Clause |
 | [range-parser](https://www.npmjs.com/package/range-parser/v/1.3.0) | 1.3.0 | MIT |
 | [raw-body](https://www.npmjs.com/package/raw-body/v/3.0.2) | 3.0.2 | MIT |
 | [require-from-string](https://www.npmjs.com/package/require-from-string/v/2.0.2) | 2.0.2 | MIT |
@@ -261,7 +261,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### body-parser 2.3.0
+### body-parser 2.4.0
 
 MIT.
 
@@ -2215,7 +2215,7 @@ TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ```
 
-### qs 6.16.0
+### qs 6.16.1
 
 BSD-3-Clause.
 
