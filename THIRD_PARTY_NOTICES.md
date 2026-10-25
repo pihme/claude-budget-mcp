@@ -53,7 +53,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [http-errors](https://www.npmjs.com/package/http-errors/v/2.0.1) | 2.0.1 | MIT |
 | [iconv-lite](https://www.npmjs.com/package/iconv-lite/v/0.7.3) | 0.7.3 | MIT |
 | [inherits](https://www.npmjs.com/package/inherits/v/2.0.4) | 2.0.4 | ISC |
-| [ip-address](https://www.npmjs.com/package/ip-address/v/10.7.3) | 10.7.3 | MIT |
+| [ip-address](https://www.npmjs.com/package/ip-address/v/10.7.4) | 10.7.4 | MIT |
 | [ipaddr.js](https://www.npmjs.com/package/ipaddr.js/v/1.9.1) | 1.9.1 | MIT |
 | [is-promise](https://www.npmjs.com/package/is-promise/v/4.0.0) | 4.0.0 | MIT |
 | [isexe](https://www.npmjs.com/package/isexe/v/2.0.0) | 2.0.0 | ISC |
@@ -1485,7 +1485,7 @@ OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE OR
 PERFORMANCE OF THIS SOFTWARE.
 ```
 
-### ip-address 10.7.3
+### ip-address 10.7.4
 
 MIT.
 
