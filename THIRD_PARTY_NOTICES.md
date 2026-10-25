@@ -13,7 +13,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [accepts](https://www.npmjs.com/package/accepts/v/2.0.0) | 2.0.0 | MIT |
 | [ajv](https://www.npmjs.com/package/ajv/v/8.20.0) | 8.20.0 | MIT |
 | [ajv-formats](https://www.npmjs.com/package/ajv-formats/v/3.0.1) | 3.0.1 | MIT |
-| [body-parser](https://www.npmjs.com/package/body-parser/v/2.3.0) | 2.3.0 | MIT |
+| [body-parser](https://www.npmjs.com/package/body-parser/v/2.4.0) | 2.4.0 | MIT |
 | [content-type](https://www.npmjs.com/package/content-type/v/2.1.0) | 2.1.0 | MIT |
 | [bytes](https://www.npmjs.com/package/bytes/v/3.1.2) | 3.1.2 | MIT |
 | [call-bind-apply-helpers](https://www.npmjs.com/package/call-bind-apply-helpers/v/1.0.2) | 1.0.2 | MIT |
@@ -261,7 +261,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### body-parser 2.3.0
+### body-parser 2.4.0
 
 MIT.
 
