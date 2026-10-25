@@ -39,7 +39,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [express](https://www.npmjs.com/package/express/v/5.2.1) | 5.2.1 | MIT |
 | [express-rate-limit](https://www.npmjs.com/package/express-rate-limit/v/8.7.0) | 8.7.0 | MIT |
 | [fast-deep-equal](https://www.npmjs.com/package/fast-deep-equal/v/3.1.3) | 3.1.3 | MIT |
-| [fast-uri](https://www.npmjs.com/package/fast-uri/v/3.1.8) | 3.1.8 | BSD-3-Clause |
+| [fast-uri](https://www.npmjs.com/package/fast-uri/v/3.1.9) | 3.1.9 | BSD-3-Clause |
 | [finalhandler](https://www.npmjs.com/package/finalhandler/v/2.1.1) | 2.1.1 | MIT |
 | [forwarded](https://www.npmjs.com/package/forwarded/v/0.2.0) | 0.2.0 | MIT |
 | [fresh](https://www.npmjs.com/package/fresh/v/2.0.0) | 2.0.0 | MIT |
@@ -1060,7 +1060,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
 
-### fast-uri 3.1.8
+### fast-uri 3.1.9
 
 BSD-3-Clause.
 
