@@ -46,7 +46,8 @@ License: **MIT** (`LICENSE`). Copyright line: "claude-budget-mcp contributors"; 
 
 - Commit prefixes (set in `.github/dependabot.yml`): runtime dependencies and shipped Docker base images `fix(deps):` (patch release), dev dependencies `chore(deps-dev):`, GitHub Actions `ci(deps):`, images that are not shipped (examples, tests) `chore(deps):`.
 - **Never turn a dependency update into `feat!:`** or reword its title. A major dependency update is still `fix(deps)` / `chore(deps-dev)`. If it forces a breaking change on users (for example a new minimum runtime), that is a separate, deliberate commit after the maintainer decides.
-- **Merge Dependabot PRs when CI is green** (squash, keep the Dependabot title). If one conflicts, comment `@dependabot rebase`. If CI is red and the fix is not obvious, leave the PR open and open an issue.
+- Never merge a Dependabot PR on green CI alone. Dependabot PRs arrive with `ready-for-maintainer` (set by `.github/dependabot.yml`); Maintainer reviews the content and sets `ready-for-qa`; QA merges (squash, keep the Dependabot title). Decisions go to the owner with `ready-for-human`.
+- No Dependabot PRs are handed on during a release. Release PRs from 1.0.0 on are merged only by the owner. Details: `docs/agents/team.md`.
 
 ### Secrets
 

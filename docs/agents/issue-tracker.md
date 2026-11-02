@@ -11,7 +11,7 @@ Issues and specs for this repo live as GitHub issues in `pihme/claude-budget-mcp
 - **Labels**: `gh issue edit <number> --add-label "..."` / `--remove-label "..."`
 - **Close**: `gh issue close <number> --comment "..."`
 
-**Who may write:** agents open issues for their own findings and close issues fixed by their own commits (`Closes #n` in the commit body). Comments, reviews, label changes or closes on other people's issues and PRs only when the maintainer asked for it in the session. Exception: Dependabot PRs (merge on green CI, `@dependabot rebase`).
+**Who may write:** agents open issues for their own findings and close issues fixed by their own commits (`Closes #n` in the commit body). Comments, reviews, label changes or closes on other people's issues and PRs only when the maintainer asked for it in the session. Exception: Dependabot PRs, which follow the Dependabot flow in `team.md`: they arrive with `ready-for-maintainer`; Maintainer reviews the content and sets `ready-for-qa`; QA merges; decisions go to the owner with `ready-for-human`. No Dependabot PRs are handed on during a release, and release PRs from 1.0.0 on are merged only by the owner.
 
 ## Pull requests as a triage surface
 
