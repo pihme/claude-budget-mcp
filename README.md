@@ -18,6 +18,8 @@ A small, local **MCP server** (stdio) that lets a [Claude Code](https://code.cla
 *"how much of my 5-hour and weekly usage limits is left, and when do they reset?"* —
 the same figures the interactive `/usage` command shows for a Claude subscription (Pro, Max, Team, Enterprise).
 
+Part of [Hobelbank](https://pihme.github.io/hobelbank/), a set of projects on building software in the age of AI.
+
 Today an agent has no first-class way to get these numbers: `/usage` is interactive, and the status line's
 `rate_limits` only reach the status line script. This server reads your existing Claude Code login and returns
 the figures as JSON. It is the sister project of [grok-budget-mcp](https://github.com/pihme/grok-budget-mcp).
