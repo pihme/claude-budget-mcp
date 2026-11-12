@@ -8,7 +8,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 
 | Package | Version | License |
 | --- | --- | --- |
-| [@hono/node-server](https://www.npmjs.com/package/@hono/node-server/v/2.1.3) | 2.1.3 | MIT |
+| [@hono/node-server](https://www.npmjs.com/package/@hono/node-server/v/2.1.8) | 2.1.8 | MIT |
 | [@modelcontextprotocol/sdk](https://www.npmjs.com/package/@modelcontextprotocol/sdk/v/1.32.2) | 1.32.2 | MIT |
 | [accepts](https://www.npmjs.com/package/accepts/v/2.0.0) | 2.0.0 | MIT |
 | [ajv](https://www.npmjs.com/package/ajv/v/8.20.0) | 8.20.0 | MIT |
