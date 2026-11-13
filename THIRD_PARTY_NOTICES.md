@@ -49,7 +49,7 @@ The release tarball (`claude-budget-mcp-X.Y.Z.tgz`, from `npm pack`) contains on
 | [gopd](https://www.npmjs.com/package/gopd/v/1.2.0) | 1.2.0 | MIT |
 | [has-symbols](https://www.npmjs.com/package/has-symbols/v/1.1.0) | 1.1.0 | MIT |
 | [hasown](https://www.npmjs.com/package/hasown/v/2.0.4) | 2.0.4 | MIT |
-| [hono](https://www.npmjs.com/package/hono/v/4.13.12) | 4.13.12 | MIT |
+| [hono](https://www.npmjs.com/package/hono/v/4.13.18) | 4.13.18 | MIT |
 | [http-errors](https://www.npmjs.com/package/http-errors/v/2.0.1) | 2.0.1 | MIT |
 | [iconv-lite](https://www.npmjs.com/package/iconv-lite/v/0.7.3) | 0.7.3 | MIT |
 | [inherits](https://www.npmjs.com/package/inherits/v/2.0.4) | 2.0.4 | ISC |
